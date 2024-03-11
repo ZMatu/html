@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    background-color: rgba(76, 49, 88, 0.479);
+}
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.logo{
+   display: flex;
+   align-items: baseline;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+.prueba{
+    color: rgb(75, 21, 201);
+}
+nav a:hover{
+    color: blueviolet;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+ 
