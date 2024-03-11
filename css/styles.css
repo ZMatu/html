@@ -38,4 +38,17 @@ nav a:hover{
     background-size: cover;
     background-position: center center;
 }
+background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.5)
+  ), url("https://cdn.donmai.us/original/ba/79/ba7981846a22ace4bd8777367b76c106.jpg");
+
+/* Valores globales */
+background-image: inherit;
+background-image: initial;
+background-image: revert;
+background-image: revert-layer;
+background-image: unset;
+
  
