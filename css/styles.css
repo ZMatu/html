@@ -6,6 +6,7 @@ html{
 }
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: large;
     margin: 8px;
     background-color: rgba(188, 34, 62, 0.8);
 }
@@ -26,6 +27,7 @@ button{
 }
 nav a:hover{
     color: blueviolet;
+    margin: 8px;
 }
 #hero{
     display: flex;
@@ -45,7 +47,13 @@ nav a:hover{
     background-size: cover;
     background-position: center center;
 }
-background-image: revert-layer;
-background-image: unset;
+#prueba2{
+display: flex;
+align-items: center;
+justify-items: center;
+flex-direction: column;
+margin: auto;
+border-radius: 1px;
+}
 
  
