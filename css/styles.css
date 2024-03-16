@@ -7,7 +7,7 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     font-size: large;
-    margin: 8px;
+    margin: 0px;
     background-color: rgba(188, 34, 62, 0.8);
 }
 button{
@@ -25,9 +25,10 @@ button{
 .prueba{
     color: rgb(75, 21, 201);
 }
-nav a:hover{
+.nav-link:hover{
     color: blueviolet;
-    margin: 8px;
+    margin: 10px;
+   
 }
 #hero{
     display: flex;
@@ -53,4 +54,6 @@ nav a:hover{
     text-align: center;
     justify-items: center;
     flex-direction: column;
+    background-color: antiquewhite;
+    color: rgb(172, 99, 240);
 }
