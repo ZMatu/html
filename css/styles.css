@@ -10,9 +10,13 @@ body{
     margin: 0px;
     background-color: rgba(188, 34, 62, 0.8);
 }
-button{
-    font-size: 1.5em;
-    font-weight: bold;
+nav{
+
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+
 }
 .logo{
    display: flex;
@@ -27,8 +31,8 @@ button{
 }
 .nav-link:hover{
     color: blueviolet;
-    margin: 10px;
-   
+    zoom: 200%;
+
 }
 #hero{
     display: flex;
